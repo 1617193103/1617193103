@@ -27,23 +27,23 @@ Type "copyright", "credits" or "license()" for more information.
     },
 }
 >>> for username, userinfo in users.items():
-	print("userid£º" + username)
+	print("useridÂ£Âº" + username)
 	print("userinfo:" + str(userinfo))
 
 	
-userid£ºA
+useridÂ£ÂºA
 userinfo:{'last': 'si', 'location': 'hs', 'first': 'bo'}
-userid£ºB
+useridÂ£ÂºB
 userinfo:{'last': 'du', 'location': 'hs', 'first': 'shuang'}
 SyntaxError: invalid syntax
 >>> for username, userinfo in users.items():
-	print("userid£º" + username)
+	print("useridÂ£Âº" + username)
 	print("userinfo:" + str(userinfo))
 
 	
-userid£ºA
+useridÂ£ÂºA
 userinfo:{'last': 'bo', 'location': 'hs', 'first': 'si'}
-userid£ºB
+useridÂ£ÂºB
 userinfo:{'last': 'shuang', 'location': 'hs', 'first': 'du'}
 SyntaxError: invalid syntax
 >>> for username, userinfo in users.items():
